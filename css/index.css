@@ -18,7 +18,7 @@ body {
 /* main */
 .main {
     background-color: rgb(255, 255, 255);
-    margin: 50 0 0 150px;
+    margin: 200 0 0 150px;
     justify-content: center;
     display: flex;
     width: calc(100% - 150px);
