@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, arial,sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+    overflow-y: scroll;
+    }
+.patti {
+    display: flex;
+}
+
+/*main*/
+
+.a-container {
+    background-color: rgb(231, 231, 231);
+    margin: 0 0 0 150px;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%);
+    height: 100%;
+    padding: 0;
+}
+.a-container2 {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%);
+    height: 100%;
+    margin: 77px 0 0 0;
+    list-style: none;
+
+    text-align: left;
+}
+/*archv-box~*/
+.archv {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%);
+    height: 330px;
+}
+/*year_and_dm*/
+h2 {
+    margin: 15px 0 0 20px;
+    font-size: 24px;
+}
+p.dm {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+}
+img.dm {
+    max-height: 300px;
+    max-width: 300px;
+}
+/*archv_insd*/
+div.archv-insd {
+    display: flex;
+    flex-flow: column;
+}
+div.archvtxt {
+    width: calc(100%-400px);
+    height: 120px;
+}
+li.archvtxt1 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+li.archvtxt2 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+div.archvpht {
+    padding: 0 0 0 0;
+    width: calc(100%-400px);
+    height: calc(100%-120px);
+    display: flex;
+}
+p.archvpht {
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+    display: grid;
+    place-items: center;
+}
+img.archvpht {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+/*RWD*/
+@media screen and (max-width:748px){
+    
+/*RWD-main*/
+body {
+    width: 100%;
+    max-width: 748px;
+}
+.a-container {
+    margin: 0;
+    justify-content: center;
+    padding-top: 12px;
+}
+.a-container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.archv {
+    height: 100%;
+    justify-content: center;
+}
+.archvpht {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+.archvtxt {
+    width: 100%;
+    height: 100%;
+}
+h2 {
+    margin: 0;
+}
+p.dm {
+    margin-left: 0;
+}
+p.archvpht {
+    margin-left: 25px;
+}
+p {
+    margin: 20px 0 0 0;
+    height: 300px;
+    width: 300px;
+}
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
+}
