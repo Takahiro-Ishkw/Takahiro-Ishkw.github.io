@@ -37,11 +37,16 @@ figcaption {
 @media screen and (max-width:748px){
 .main {
     margin: 0 0 0 0;
+    width: 100%;
+    padding: 20 10 0px;
 }
 
 /*RWD-main*/
 .topimg {
+    width: auto;
+    max-width: 100%;
     margin-top: 10px;
-    height: 400px;
+    height: 100%;
+    max-height: 400px;
 }
 }
