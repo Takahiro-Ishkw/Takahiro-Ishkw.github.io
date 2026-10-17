@@ -47,4 +47,8 @@ figcaption {
     margin-top: 10px;
     height: auto;
 }
+figcaption {
+    margin-left: 12px;
+}
+
 }
