@@ -28,7 +28,7 @@ body {
 }
 .p-y-box {
     background-color: white;
-    margin: 77px 0 0 0;
+    margin: 0 0 77px 0;
     padding: 0 0 0 0;
     padding-top: 0;
     justify-self: center;
@@ -41,8 +41,9 @@ body {
     text-align: left;
 }
 h2 {
-    padding: 15px 0 15px 20px;
+    padding: 15px 0 15px 45px;
     font-size: 24px;
+    color: slategray;
 }
 .p-container {
     background-color: rgb(255, 255, 255);
